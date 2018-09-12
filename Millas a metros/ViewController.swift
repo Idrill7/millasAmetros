@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  Millas a metros
 //
-//  Created by alejandro gonzalez casado on 18/9/17.
-//  Copyright © 2017 Idrilplays. All rights reserved.
+//  Created by alejandro gonzalez casado .
+//  Copyright © 2018 Idrilplays. All rights reserved.
 //
 
 import UIKit
@@ -45,32 +45,37 @@ class ViewController: UIViewController {
         let selectedIndex = segmentedControl.selectedSegmentIndex
         let selectedIndex2 = segmentedControl2.selectedSegmentIndex
         // primera exclamación asegura de que va a llegar un texto,y la segunda que ese texto se va a poder convertir en un valor decimal,double
-        let textFieldValue = Double(distanceTextField.text!)!
         
-        if selectedIndex == selectedIndex2 {
+        if let textFieldStr = distanceTextField.text, let textFieldValue = Double(textFieldStr) {
+        
+        
+            if selectedIndex == selectedIndex2 {
             resultLabel.text = "Su valor, \(textFieldValue) es el mismo. Por favor,pulse otra casilla para poder convertir su valor"
-        } else if selectedIndex == 0 && selectedIndex2 == 1 {
-            let convertedValue = textFieldValue * milleUnit // Milla a KM
-            reloadView(textFieldValue: textFieldValue, convertedValue: convertedValue)
-        }else if selectedIndex == 0 && selectedIndex2 == 2 {
-            let convertedValue = textFieldValue * mitoYard // Millas a Yardas
-            reloadView(textFieldValue: textFieldValue, convertedValue: convertedValue)
-        }else if selectedIndex == 1 && selectedIndex2 == 0 {
-            let convertedValue = textFieldValue * milleUnit // KM a Millas
-            reloadView(textFieldValue: textFieldValue, convertedValue: convertedValue)
-        }else if selectedIndex == 1 && selectedIndex2 == 2 {
-            let convertedValue = textFieldValue * kmtoYard // KM a Yardas
-            reloadView(textFieldValue: textFieldValue, convertedValue: convertedValue)
-        }else if selectedIndex == 2 && selectedIndex2 == 0 {
-            let convertedValue = textFieldValue / mitoYard // Yardas a Millas
-            reloadView(textFieldValue: textFieldValue, convertedValue: convertedValue)
-        } else if selectedIndex == 2 && selectedIndex2 == 1 {
-            let convertedValue = textFieldValue / kmtoYard // Yardas a KM
-            reloadView(textFieldValue: textFieldValue, convertedValue: convertedValue)
+                } else if selectedIndex == 0 && selectedIndex2 == 1 {
+                    let convertedValue = textFieldValue * milleUnit // Milla a KM
+                    reloadView(textFieldValue: textFieldValue, convertedValue: convertedValue)
+                }else if selectedIndex == 0 && selectedIndex2 == 2 {
+                    let convertedValue = textFieldValue * mitoYard // Millas a Yardas
+                    reloadView(textFieldValue: textFieldValue, convertedValue: convertedValue)
+                }else if selectedIndex == 1 && selectedIndex2 == 0 {
+                    let convertedValue = textFieldValue * milleUnit // KM a Millas
+                    reloadView(textFieldValue: textFieldValue, convertedValue: convertedValue)
+                }else if selectedIndex == 1 && selectedIndex2 == 2 {
+                    let convertedValue = textFieldValue * kmtoYard // KM a Yardas
+                    reloadView(textFieldValue: textFieldValue, convertedValue: convertedValue)
+                }else if selectedIndex == 2 && selectedIndex2 == 0 {
+                    let convertedValue = textFieldValue / mitoYard // Yardas a Millas
+                    reloadView(textFieldValue: textFieldValue, convertedValue: convertedValue)
+                } else if selectedIndex == 2 && selectedIndex2 == 1 {
+                    let convertedValue = textFieldValue / kmtoYard // Yardas a KM
+                reloadView(textFieldValue: textFieldValue, convertedValue: convertedValue)
+            }else {
+            resultLabel.text = "No debe de haber caso alguno"
+            }
         }else {
-            resultLabel.text = "Escribe la distancia"
-        }
-    
+                resultLabel.text = "Escriba la distancia a convertir."
+            }
+        
         
        /* // old code 
 if selectedIndex == 0 {

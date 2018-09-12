@@ -102,7 +102,7 @@ if selectedIndex == 0 {
         let selectedIndex2 = segmentedControl2.selectedSegmentIndex
         
         if selectedIndex == selectedIndex2 {
-           resultLabel.text = " Por favor,pulse otra casilla para poder convertir su valor"}
+           resultLabel.text = "Por favor,pulse otra casilla para poder convertir su valor"}
         else if selectedIndex == 0 && selectedIndex2 == 1 {
            resultLabel.text = "\(initValue) Millas = \(endValue) KM"}
         else if selectedIndex == 0 && selectedIndex2 == 2 {

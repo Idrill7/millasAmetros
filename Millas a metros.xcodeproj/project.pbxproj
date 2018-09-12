@@ -11,7 +11,6 @@
 		BAC87F521F703600009256DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC87F511F703600009256DC /* AppDelegate.swift */; };
 		BAC87F541F703600009256DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC87F531F703600009256DC /* ViewController.swift */; };
 		BAC87F5C1F703600009256DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAC87F5A1F703600009256DC /* LaunchScreen.storyboard */; };
-		BAC87F641F704CDA009256DC /* Main.storyboardc in Resources */ = {isa = PBXBuildFile; fileRef = BAC87F631F704CDA009256DC /* Main.storyboardc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,8 +19,8 @@
 		BAC87F531F703600009256DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BAC87F5B1F703600009256DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAC87F5D1F703600009256DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BAC87F631F704CDA009256DC /* Main.storyboardc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.storyboardc; name = Main.storyboardc; path = ../../Main.storyboardc; sourceTree = "<group>"; };
 		BAD793182149481A0008A958 /* Millas a metros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Millas a metros.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD7931921494AE70008A958 /* Main.storyboardc */ = {isa = PBXFileReference; lastKnownFileType = wrapper.storyboardc; path = Main.storyboardc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,8 +48,8 @@
 				BAC87F511F703600009256DC /* AppDelegate.swift */,
 				BAC87F531F703600009256DC /* ViewController.swift */,
 				BAC0124E1F71579400DD85AC /* Media.xcassets */,
-				BAC87F631F704CDA009256DC /* Main.storyboardc */,
 				BAC87F5A1F703600009256DC /* LaunchScreen.storyboard */,
+				BAD7931921494AE70008A958 /* Main.storyboardc */,
 				BAC87F5D1F703600009256DC /* Info.plist */,
 			);
 			path = "Millas a metros";
@@ -119,7 +118,6 @@
 			files = (
 				BAC87F5C1F703600009256DC /* LaunchScreen.storyboard in Resources */,
 				BAC0124F1F71579400DD85AC /* Media.xcassets in Resources */,
-				BAC87F641F704CDA009256DC /* Main.storyboardc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

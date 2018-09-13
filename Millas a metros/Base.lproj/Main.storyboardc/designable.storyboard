@@ -105,7 +105,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="convertPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Quo-Dk-kgr"/>
+                                    <action selector="convertPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vGf-Oc-X0q"/>
                                 </connections>
                             </button>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="ftP-EM-fia">
@@ -136,24 +136,24 @@
                                 <rect key="frame" x="242" y="61" width="174" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="centimeter-512" translatesAutoresizingMaskIntoConstraints="NO" id="mg4-ol-igw">
+                                <rect key="frame" x="0.0" y="466" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="perspectiva-de-camino-de-curvas" translatesAutoresizingMaskIntoConstraints="NO" id="9C4-Tk-yiT">
                                 <rect key="frame" x="185" y="561" width="213" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <rect key="contentStretch" x="0.10000000000000001" y="0.0" width="0.84999999999999998" height="1"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="centimeter-512" translatesAutoresizingMaskIntoConstraints="NO" id="mg4-ol-igw">
-                                <rect key="frame" x="-28" y="479" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="distanceTextField" destination="w8g-Pz-UAk" id="Wlz-5o-cyL"/>
-                        <outlet property="resultLabel" destination="NbY-pO-roS" id="UU3-Gd-jcm"/>
-                        <outlet property="segmentedControl" destination="dOn-vq-k18" id="cil-WR-9mG"/>
-                        <outlet property="segmentedControl2" destination="ftP-EM-fia" id="zzQ-br-R8c"/>
+                        <outlet property="distanceTextField" destination="w8g-Pz-UAk" id="WRX-J9-9Fn"/>
+                        <outlet property="resultLabel" destination="NbY-pO-roS" id="7AY-js-shC"/>
+                        <outlet property="segmentedControl" destination="dOn-vq-k18" id="NJ2-yg-fzJ"/>
+                        <outlet property="segmentedControl2" destination="ftP-EM-fia" id="3Dx-y6-Ytp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

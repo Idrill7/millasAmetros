@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		BA7ED778214977150008F6B0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA7ED777214977150008F6B0 /* Default-568h@2x.png */; };
 		BA7ED77C214977BB0008F6B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7ED77B214977BB0008F6B0 /* AppDelegate.swift */; };
-		BA7ED77E214979600008F6B0 /* Main.storyboardc in Resources */ = {isa = PBXBuildFile; fileRef = BA7ED77D2149795F0008F6B0 /* Main.storyboardc */; };
-		BAC0124F1F71579400DD85AC /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAC0124E1F71579400DD85AC /* Media.xcassets */; };
+		BA7ED783214ADE980008F6B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA7ED782214ADE970008F6B0 /* Assets.xcassets */; };
+		BA7ED787214AE6590008F6B0 /* designable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA7ED786214AE6590008F6B0 /* designable.storyboard */; };
 		BAC87F541F703600009256DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC87F531F703600009256DC /* ViewController.swift */; };
 		BAC87F5C1F703600009256DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAC87F5A1F703600009256DC /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,9 +18,9 @@
 /* Begin PBXFileReference section */
 		BA7ED777214977150008F6B0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		BA7ED77B214977BB0008F6B0 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BA7ED77D2149795F0008F6B0 /* Main.storyboardc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.storyboardc; path = Main.storyboardc; sourceTree = "<group>"; };
-		BA7ED781214A94040008F6B0 /* Millas a metros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Millas a metros.app"; path = "/Users/alexmac/Documents/Curso 1 - 0 a pro/T8 - APP 2.1/Millas a metros App/build/Debug-iphoneos/Millas a metros.app"; sourceTree = "<absolute>"; };
-		BAC0124E1F71579400DD85AC /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = Assets.xcassets/Media.xcassets; sourceTree = SOURCE_ROOT; };
+		BA7ED782214ADE970008F6B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		BA7ED786214AE6590008F6B0 /* designable.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = designable.storyboard; path = Main.storyboard/designable.storyboard; sourceTree = "<group>"; };
+		BA7ED788214AE68E0008F6B0 /* Millas a metros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Millas a metros.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC87F531F703600009256DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BAC87F5B1F703600009256DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAC87F5D1F703600009256DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,6 +42,7 @@
 			children = (
 				BA7ED777214977150008F6B0 /* Default-568h@2x.png */,
 				BAC87F501F703600009256DC /* Millas a metros */,
+				BA7ED788214AE68E0008F6B0 /* Millas a metros.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -50,8 +51,8 @@
 			children = (
 				BAC87F531F703600009256DC /* ViewController.swift */,
 				BA7ED77B214977BB0008F6B0 /* AppDelegate.swift */,
-				BAC0124E1F71579400DD85AC /* Media.xcassets */,
-				BA7ED77D2149795F0008F6B0 /* Main.storyboardc */,
+				BA7ED782214ADE970008F6B0 /* Assets.xcassets */,
+				BA7ED786214AE6590008F6B0 /* designable.storyboard */,
 				BAC87F5A1F703600009256DC /* LaunchScreen.storyboard */,
 				BAC87F5D1F703600009256DC /* Info.plist */,
 			);
@@ -75,7 +76,7 @@
 			);
 			name = "Millas a metros";
 			productName = "Millas a metros";
-			productReference = BA7ED781214A94040008F6B0 /* Millas a metros.app */;
+			productReference = BA7ED788214AE68E0008F6B0 /* Millas a metros.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -121,8 +122,8 @@
 			files = (
 				BAC87F5C1F703600009256DC /* LaunchScreen.storyboard in Resources */,
 				BA7ED778214977150008F6B0 /* Default-568h@2x.png in Resources */,
-				BA7ED77E214979600008F6B0 /* Main.storyboardc in Resources */,
-				BAC0124F1F71579400DD85AC /* Media.xcassets in Resources */,
+				BA7ED787214AE6590008F6B0 /* designable.storyboard in Resources */,
+				BA7ED783214ADE980008F6B0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +275,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -288,6 +290,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

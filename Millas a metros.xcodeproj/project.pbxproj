@@ -19,11 +19,11 @@
 		BA7ED777214977150008F6B0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		BA7ED77B214977BB0008F6B0 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA7ED77D2149795F0008F6B0 /* Main.storyboardc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.storyboardc; path = Main.storyboardc; sourceTree = "<group>"; };
+		BA7ED781214A94040008F6B0 /* Millas a metros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Millas a metros.app"; path = "/Users/alexmac/Documents/Curso 1 - 0 a pro/T8 - APP 2.1/Millas a metros App/build/Debug-iphoneos/Millas a metros.app"; sourceTree = "<absolute>"; };
 		BAC0124E1F71579400DD85AC /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = Assets.xcassets/Media.xcassets; sourceTree = SOURCE_ROOT; };
 		BAC87F531F703600009256DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BAC87F5B1F703600009256DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAC87F5D1F703600009256DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BAD793182149481A0008A958 /* Millas a metros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Millas a metros.app"; path = "/Users/alexmac/Documents/Curso 1 - 0 a pro/T8 - APP 2.1/Millas a metros App/build/Debug-iphoneos/Millas a metros.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 			);
 			name = "Millas a metros";
 			productName = "Millas a metros";
-			productReference = BAD793182149481A0008A958 /* Millas a metros.app */;
+			productReference = BA7ED781214A94040008F6B0 /* Millas a metros.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */

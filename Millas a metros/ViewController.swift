@@ -44,7 +44,6 @@ class ViewController: UIViewController {
         
         let selectedIndex = segmentedControl.selectedSegmentIndex
         let selectedIndex2 = segmentedControl2.selectedSegmentIndex
-        // primera exclamación asegura de que va a llegar un texto,y la segunda que ese texto se va a poder convertir en un valor decimal,double
         
         if let textFieldStr = distanceTextField.text, let textFieldValue = Double(textFieldStr) {
         
